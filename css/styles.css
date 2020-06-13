@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --title-text-color: #212121;
   --secondary-text-color: #ffffff;
@@ -20,14 +30,17 @@ background интерактивных элементов: rgba(33, 150, 243, 0.9
 Цвет акцентов #2196F3 */
 
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   background: #e5e5e5;
   color: #757575;
 }
+
 li {
   list-style: none;
 }
 .logo {
+  margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -79,6 +92,9 @@ a {
   color: var(--accent-text-color);
 }
 .hero-title {
+  margin-top: 197px;
+  margin-bottom: 30px;
+  text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36em;
@@ -88,17 +104,30 @@ a {
 }
 
 .hero-link {
+  margin-bottom: 203px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  display: inline-block;
+  padding: 10px 31px;
+  border: transparent;
+  border-radius: 4px;
+  text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
 }
 .hero-link:focus,
 .hero-link:hover {
   color: var(--accent-text-color);
 }
 .advantages-list h3 {
+  margin: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
@@ -108,12 +137,14 @@ a {
 }
 
 .advantages-list p {
+  margin: 0;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .what-do-we-do-title {
+  margin: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16em;
@@ -133,6 +164,7 @@ a {
   color: var(--accent-text-color);
 }
 .our-team-title {
+  margin: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16em;
@@ -140,6 +172,7 @@ a {
   color: var(--title-text-color);
 }
 .our-team-list h3 {
+  margin: 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18em;
@@ -147,12 +180,14 @@ a {
   color: var(--title-text-color);
 }
 .our-team-list p {
+  margin: 0;
   font-size: 16px;
   line-height: 1.18em;
   letter-spacing: 0.03em;
 }
 
 .customer-title {
+  margin: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16em;
@@ -181,6 +216,7 @@ a {
 }
 
 .offer-to-join-us {
+  margin: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
@@ -189,6 +225,7 @@ a {
   color: var(--secondary-text-color);
 }
 .offer-to-subscribe {
+  margin: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
