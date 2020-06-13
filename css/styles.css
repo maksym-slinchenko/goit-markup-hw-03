@@ -1,0 +1,262 @@
+:root {
+  --title-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  --accent-text-color: #2196f3;
+}
+
+/*палитра
+основной background: #E5E5E5
+background блоков 1: #FFFFFF;
+background блоков 2 #F5F4FA
+ссылок rgba(47, 48, 58, 0.8);
+background футера: #2F303A
+background интерактивных элементов: rgba(33, 150, 243, 0.9)*/
+/*
+цвет основноготекста #757575
+Цвет второстепенного текста #FFFFFF
+цвет заголовков #212121
+цвет 1 логотипа #2196F3;
+цыет 2 логотипа #212121
+Цвет акцентов #2196F3 */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e5e5e5;
+  color: #757575;
+}
+li {
+  list-style: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+.logo-firs-half {
+  color: #2196f3;
+}
+.logo-second-half {
+  color: #212121;
+}
+.nav-list a:focus,
+.nav-list a:hover {
+  color: var(--accent-text-color);
+}
+.nav-list a {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+}
+
+.contacts .our-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contacts .our-mail:focus,
+.contacts .our-mail:hover {
+  color: var(--accent-text-color);
+}
+.contacts .our-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contacts .our-phone:focus,
+.contacts .our-phone:hover {
+  color: var(--accent-text-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.hero-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.hero-link:focus,
+.hero-link:hover {
+  color: var(--accent-text-color);
+}
+.advantages-list h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.advantages-list p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.what-do-we-do-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16em;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.what-do-we-do-list a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.what-do-we-do-list a:focus,
+.what-do-we-do-list a:hover {
+  color: var(--accent-text-color);
+}
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16em;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.our-team-list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.our-team-list p {
+  font-size: 16px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
+}
+
+.customer-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16em;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.address-list li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  font-style: normal;
+}
+.address-list a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.address-list a:focus,
+.address-list a:hover {
+  color: var(--accent-text-color);
+}
+
+.offer-to-join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.offer-to-subscribe {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.mail-sign {
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.subscribe-link:focus,
+.subscribe-link:hover {
+  color: var(--accent-text-color);
+}
+
+.developer-information {
+  font-size: 12px;
+  line-height: 2em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
+.portfolio-nav-list a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.portfolio-nav-list a:focus,
+.portfolio-nav-list a:hover {
+  color: var(--accent-text-color);
+}
+.item-comment {
+  font-size: 18px;
+  line-height: 1.56em;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio-item-title:focus,
+.portfolio-item-title:hover {
+  color: var(--accent-text-color);
+}
+.portfolio-item-type {
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.portfolio-item-type:focus,
+.portfolio-item-type:hover {
+  color: var(--accent-text-color);
+}
