@@ -221,9 +221,9 @@ a {
   flex-direction: column;
   text-align: center;
   margin-top: 90px;
-  background: green;
+ 
 }
-.secondary-what-do-we-do {
+.what-do-we-do-list {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
@@ -241,6 +241,9 @@ a {
 .what-do-we-do-list li {
   display: flex;
   flex-direction: column;
+}
+.what-do-we-do-list li:not(:first-child) {
+  margin-left: 30px;
 }
 .what-do-we-do-list p {
   height: 70px;
