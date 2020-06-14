@@ -15,15 +15,17 @@
   <body>
     <!-- Топ линия -->
     <header>
-      <nav>
+      <nav class="conteiner site-nav-main">
         <a href="" class="logo"
           ><span class="logo-firs-half">Web</span>
           <span class="logo-second-half">Studio</span>
         </a>
         <ul class="nav-list">
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li class="nav-list-item"><a href="">Студия</a></li>
+          <li class="nav-list-item">
+            <a href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav-list-item"><a href="">Контакты</a></li>
         </ul>
         <ul class="contacts">
           <li>
@@ -175,28 +177,38 @@
     </main>
     <!-- Нижняя строка с контактами -->
     <footer>
-      <p class="logo">
-        <span class="logo-firs-half">Web</span>
-        <span class="logo-second-half">Studio</span>
-      </p>
-      <address>
-        <ul class="address-list">
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+38-099-111-11-11">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
-      <p class="offer-to-join-us">Присоединяйтесь</p>
-      <ul>
-        <li><a href="">Instagram</a></li>
-        <li><a href="">Twitter</a></li>
-        <li><a href="">Facebook</a></li>
-        <li><a href="">Linkdin</a></li>
-      </ul>
-      <p class="offer-to-subscribe">Подпишитесь на рассылку</p>
-      <input class="mail-sign" type="text" placeholder="E-mail" />
-      <a class="subscribe-link" href="">Подписаться</a>
-      <p class="developer-information">2020 | Developed by GoIT Students</p>
+      <section class="conteiner last-section">
+        <div class="conteiner-logo&address">
+          <p class="logo">
+            <span class="logo-firs-half">Web</span>
+            <span class="logo-seconf-half">Studio</span>
+          </p>
+          <address>
+            <ul class="address-list">
+              <li>г. Киев, пр-т Леси Украинки, 26</li>
+              <li><a href="mailto:info@example.com">info@example.com</a></li>
+              <li><a href="tel:+38-099-111-11-11">+38 099 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="conteiner-join-us">
+          <p class="offer-to-join-us">Присоединяйтесь</p>
+          <ul>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Linkdin</a></li>
+          </ul>
+        </div>
+        <div class="conteiner-subscribe">
+          <p class="offer-to-subscribe">Подпишитесь на рассылку</p>
+          <input class="mail-sign" type="text" placeholder="E-mail" />
+          <a class="subscribe-link" href="">Подписаться</a>
+        </div>
+      </section>
+      <div class="conteiner-developer">
+        <p class="developer-information">2020 | Developed by GoIT Students</p>
+      </div>
     </footer>
   </body>
 </html>
